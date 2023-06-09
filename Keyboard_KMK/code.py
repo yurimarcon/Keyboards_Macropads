@@ -45,14 +45,14 @@ keyboard.keymap = [
     # |------+------+------+------+------+------+------+------+------+------+------+------+------+------|
     # | Shift|   Z  |   X  |   C  |   V  |   B  |   N  |   M  |   ,  |   .  |   /  |XXXXXX|XXXXXX| Shift|
     # |------+------+------+------+------+------+------+------+------+------+------+------+------+------|
-    # | Ctrl | GUI  |  Alt |XXXXXX|XXXXXX| Space|XXXXXX|XXXXXX|XXXXXX| Alt  | GUI  | Fn   |XXXXXX| Ctrl |
+    # | Ctrl | GUI  |  Alt |XXXXXX|XXXXXX| Space|XXXXXX|XXXXXX| Space| Alt  | GUI  | Fn   |XXXXXX| Ctrl |
     # `------------------------------------------------------------------------------------------+------'
     [
         KC.ESC,   KC.N1,   KC.N2,   KC.N3,   KC.N4,   KC.N5,  KC.N6,   KC.N7,   KC.N8,   KC.N9,   KC.N0,   KC.MINS, KC.EQUAL, KC.BSPC,   
         KC.TAB,   KC.Q,    KC.W,    KC.E,    KC.R,    KC.T,   KC.Y,    KC.U,    KC.I,    KC.O,    KC.P,    KC.LBRC, KC.RBRC,  KC.BSLASH, 
         FN2,      KC.A,    KC.S,    KC.D,    KC.F,    KC.G,   KC.H,    KC.J,    KC.K,    KC.L,    KC.SCLN, KC.QUOT, XXXXXXX,  KC.ENTER,  
         KC.LSFT,  KC.Z,    KC.X,    KC.C,    KC.V,    KC.B,   KC.N,    KC.M,    KC.COMM, KC.DOT,  KC.SLSH, XXXXXXX, XXXXXXX,  KC.RSFT,   
-        KC.LCTRL, KC.LGUI, KC.LALT, XXXXXXX, XXXXXXX, KC.SPC, XXXXXXX, XXXXXXX, XXXXXXX, KC.RALT, KC.RGUI, FN,      XXXXXXX,  KC.RCTRL,  
+        KC.LCTRL, KC.LGUI, KC.LALT, XXXXXXX, XXXXXXX, KC.SPC, XXXXXXX, XXXXXXX, KC.SPC,  KC.RALT, KC.RGUI, FN,      XXXXXXX,  KC.RCTRL,  
     ],
     # Alt
     # ,-------------------------------------------------------------------------------------------------.
