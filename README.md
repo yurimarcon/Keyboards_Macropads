@@ -32,3 +32,20 @@ Segue a lista de componentes que eu utilizei:
 - Cabo USB.
 - Ferro de solda.
 - Estanho.
+
+## Fotos
+
+
+![image](images/IMG_6427.jpeg).
+![image](images/IMG_6429.jpeg).
+![image](images/IMG_6434.jpeg).
+![image](images/IMG_6435.jpeg).
+![image](images/IMG_6436.jpeg).
+![image](images/IMG_6437.jpeg).
+![image](images/IMG_6438.jpeg).
+![image](images/IMG_6440.jpeg).
+![image](images/IMG_6441.jpeg).
+![image](images/IMG_6444.jpeg).
+![image](images/IMG_6446.jpeg).
+![image](images/IMG_6452.jpeg).
+![image](images/IMG_6457.jpeg).
