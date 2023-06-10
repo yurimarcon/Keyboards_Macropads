@@ -18,7 +18,7 @@ http://kmkfw.io/docs/keycodes
 
 ### Iniciando o projeto
 
-[!image](./images/IMG_6427.jpeg).
+[!image](images/IMG_6427.jpeg).
 
 Segue a lista de componentes que eu utilizei:
 
