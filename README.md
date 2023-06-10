@@ -18,9 +18,17 @@ http://kmkfw.io/docs/keycodes
 
 ### Iniciando o projeto
 
-![image](images/IMG_6427.jpeg).
+![image](images/IMG_6461.jpeg).
 
 Segue a lista de componentes que eu utilizei:
 
 - 2 placas de fenolite de 15x20.
-
+- 47 plugs hotswap.
+- 47 switches com keycaps.
+- 30 diodos zenner.
+- 1 metrto de fio.
+- Raspberry Pi Pico.
+- Soquete para 40 pinos (Para o Pico).
+- Cabo USB.
+- Ferro de solda.
+- Estanho.
