@@ -1,3 +1,4 @@
+
 print("Starting")
 
 import board
@@ -58,18 +59,18 @@ keyboard.keymap = [
     # ,-------------------------------------------------------------------------------------------------.
     # |   `  |  F1  |  F2  |  F3  |  F4  |  F5  |  F6  |  F7  |  F8  |  F9  | F10  | F11  | F12  | Del  |
     # |------+------+------+------+------+------+------+------+------+------+------+------+------+------|
-    # |      |      |  UP  |      |      |      |      |      | Insrt| Home | PgUp |      |      |      |
+    # |      |      |  UP  |      |      |      |      |      | Insrt|      |      |      |      |      |
     # |------+------+------+------+------+-------------+------+------+------+------+------+------+------|
-    # |      | LEFT | DOWN | RIGHT|      |      |      |      | Del  | End  | PgDn |      |      |      |
+    # |      | LEFT | DOWN | RIGHT|      |      | Home | PgDn | PgUp | End  |      |      |      |      |
     # |------+------+------+------+------+------+------+------+------+------+------+------+------+------|
     # |      |      |      |      |      |      |      |      |      |      |      |      |      |      |
     # |------+------+------+------+------+------+------+------+------+------+------+------+------+------|
-    # |      |      |      |      |      |      |      |      |      |      | App  | Fn   |      |      |
+    # |      |      |      |      |      |      |      |      |      |      | App  |      |      |      |
     # `------------------------------------------------------------------------------------------+------'
     [
         KC.GRV,  KC.F1,   KC.F2,   KC.F3,    KC.F4,   KC.F5,   KC.F6,   KC.F7,   KC.F8,   KC.F9,   KC.F10,  KC.F11,   KC.F12,  KC.DEL,   
-        XXXXXXX, XXXXXXX, KC.UP,   XXXXXXX,  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC.INS,  KC.HOME, KC.PGUP, XXXXXXX,  XXXXXXX, XXXXXXX,  
-        XXXXXXX, KC.LEFT, KC.DOWN, KC.RIGHT, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC.DEL,  KC.END,  KC.PGDN, XXXXXXX,  XXXXXXX, XXXXXXX,  
+        XXXXXXX, XXXXXXX, KC.UP,   XXXXXXX,  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC.INS,  XXXXXXX, XXXXXXX, XXXXXXX,  XXXXXXX, XXXXXXX,  
+        XXXXXXX, KC.LEFT, KC.DOWN, KC.RIGHT, XXXXXXX, XXXXXXX, KC.HOME, KC.PGDN, KC.PGUP, KC.END,  XXXXXXX, XXXXXXX,  XXXXXXX, XXXXXXX,  
         XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  XXXXXXX, XXXXXXX,  
         XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC.APP,  XXXXXXX,  XXXXXXX, XXXXXXX,  
     ],
@@ -77,7 +78,7 @@ keyboard.keymap = [
     # ,-------------------------------------------------------------------------------------------------.
     # |      |      |      |      |      |      |      |      |      |      |      |      |      |      |
     # |------+------+------+------+------+------+------+------+------+------+------+------+------+------|
-    # |      |      |      |      |      |      |      |      |      |      |      |      |      |      |
+    # |  `   |   1  |   2  |   3  |   4  |   5  |   6  |   7  |   8  |   9  |   0  |   -  |   =  |  Del |
     # |------+------+------+------+------+-------------+------+------+------+------+------+------+------|
     # |      |      |      |      |      |      |      |      |      |      |      |      |      |      |
     # |------+------+------+------+------+------+------+------+------+------+------+------+------+------|
@@ -86,11 +87,11 @@ keyboard.keymap = [
     # |      |      |      |      |      |      |      |      |      |      | LEFT | DOWN |      | RGHT |
     # `------------------------------------------------------------------------------------------+------'
     [
-        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  XXXXXXX, XXXXXXX,
-        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  XXXXXXX, XXXXXXX,
-        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  XXXXXXX, XXXXXXX,
-        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  XXXXXXX, KC.UP,
-        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC.LEFT, KC.DOWN,  XXXXXXX, KC.RIGHT
+        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  XXXXXXX,  XXXXXXX,
+        KC.GRV,  KC.N1,   KC.N2,   KC.N3,    KC.N4,   KC.N5,   KC.N6,   KC.N7,   KC.N8,   KC.N9,   KC.N0,   KC.MINS,  KC.EQUAL, KC.DEL,
+        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  XXXXXXX,  XXXXXXX,
+        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  XXXXXXX,  KC.UP,
+        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC.LEFT, KC.DOWN,  XXXXXXX,  KC.RIGHT
     ]
 ]
 
