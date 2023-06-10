@@ -12,4 +12,11 @@ eu usei o editor Thony pois ele fornece algumas facilidades.)
 
 Contruí esse teclado em um Raspberry Pi Pico com base no código
 (Keyboard_KMK/code.py)
-[!image](Imagem do projeto).
+
+### Iniciando o projeto
+
+[!image](./images/IMG_6427.HEIC).
+
+Segue a lista de componentes que eu utilizei:
+
+- 2 placas de fenolite de 15x20.
