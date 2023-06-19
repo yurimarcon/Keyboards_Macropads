@@ -40,7 +40,7 @@ keyboard.keymap = [
     # ,-------------------------------------------------------------------------------------------------.
     # |XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|
     # |XXXXXX|XXXXXX|------+------+------+------+------+------+------+------+------+------+------+------|
-    # |XXXXXX|XXXXXX| Esc  |   Q  |   W  |   E  |   R  |   T  |   Y  |   U  |   I  |   O  |   P  | Bksp |
+    # |XXXXXX|XXXXXX|   '  |   Q  |   W  |   E  |   R  |   T  |   Y  |   U  |   I  |   O  |   P  |  ´   |
     # |XXXXXX|XXXXXX|------+------+------+------+------+-------------+------+------+------+------+------|
     # |XXXXXX|XXXXXX| Tab  |   A  |   S  |   D  |   F  |   G  |   H  |   J  |   K  |   L  |   ;  |  '   |
     # |XXXXXX|XXXXXX|------+------+------+------+------+------+------+------+------+------+------+------|
@@ -50,7 +50,7 @@ keyboard.keymap = [
     # `-------------------------------------------------------------------------------------------------'
     [
         XXXXXXX, XXXXXXX, XXXXXXX,  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
-        XXXXXXX, XXXXXXX, KC.ESC,   KC.Q,    KC.W,    KC.E,    KC.R,    KC.T,    KC.Y,    KC.U,    KC.I,    KC.O,    KC.P,    KC.BSPC, 
+        XXXXXXX, XXXXXXX, KC.QUOT,  KC.Q,    KC.W,    KC.E,    KC.R,    KC.T,    KC.Y,    KC.U,    KC.I,    KC.O,    KC.P,    KC.LBRC, 
         XXXXXXX, XXXXXXX, KC.TAB,   KC.A,    KC.S,    KC.D,    KC.F,    KC.G,    KC.H,    KC.J,    KC.K,    KC.L,    KC.SCLN, KC.QUOT,  
         XXXXXXX, XXXXXXX, KC.LSFT,  KC.Z,    KC.X,    KC.C,    KC.V,    KC.B,    KC.N,    KC.M,    KC.COMM, KC.DOT,  KC.SLSH, KC.RSFT,   
         XXXXXXX, XXXXXXX, KC.LCTRL, KC.LGUI, KC.LALT, XXXXXXX, XXXXXXX, KC.SPC,  KC.SPC,  KC.RALT, FN,      FN2,     XXXXXXX, KC.ENTER,  
@@ -59,7 +59,7 @@ keyboard.keymap = [
     # ,-------------------------------------------------------------------------------------------------.
     # |XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|
     # |XXXXXX|XXXXXX|------+------+------+------+------+------+------+------+------+------+------+------|
-    # |XXXXXX|XXXXXX|   1  |   2  |   3  |   4  |   5  |   6  |   7  |   8  |   9  |   0  |   -  |  Del |
+    # |XXXXXX|XXXXXX|  ESC |   1  |   2  |   3  |   4  |   5  |   6  |   7  |   8  |   9  |   0  |  Del |
     # |XXXXXX|XXXXXX|------+------+------+------+------+-------------+------+------+------+------+------|
     # |XXXXXX|XXXXXX|      |      |      |      |      |      | Home | PgDn | PgUp | End  |   =  | Print|
     # |XXXXXX|XXXXXX|------+------+------+------+------+------+------+------+------+------+------+------|
@@ -69,11 +69,11 @@ keyboard.keymap = [
     # `-------------------------------------------------------------------------------------------------'
 
     [
-        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  XXXXXXX,
-        XXXXXXX, XXXXXXX, KC.N1,   KC.N2,   KC.N3,   KC.N4,   KC.N5,   KC.N6,   KC.N7,   KC.N8,   KC.N9,   KC.N0,   KC.MINS,  KC.DEL,
-        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC.HOME, KC.PGDN, KC.PGUP, KC.END,  KC.EQUAL, KC.PSCR,  
-        XXXXXXX, XXXXXXX, XXXXXXX, KC.PIPE, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  XXXXXXX,  
-        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  XXXXXXX,  
+        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+        XXXXXXX, XXXXXXX, KC.ESC,  KC.N1,   KC.N2,   KC.N3,   KC.N4,   KC.N5,   KC.N6,   KC.N7,   KC.N8,   KC.N9,   KC.N0,   KC.BKSP,
+        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC.HOME, KC.PGDN, KC.PGUP, KC.END,  KC.MINS, KC.EQUAL,  
+        XXXXXXX, XXXXXXX, XXXXXXX, KC.PIPE, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC.PSCR,  
+        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  
     ],
     # Arrows
     # ,-------------------------------------------------------------------------------------------------.
@@ -90,7 +90,7 @@ keyboard.keymap = [
 
     [
         XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  XXXXXXX,  XXXXXXX,
-        XXXXXXX, XXXXXXX, KC.F1,   KC.F2,   KC.UP,   KC.F4,   KC.F5,   KC.F6,   KC.F7,   KC.F8,   KC.F9,   KC.F10,   KC.F11,   KC.F12,
+        XXXXXXX, XXXXXXX, KC.F1,   KC.F2,   KC.UP,   KC.F4,   KC.F5,   KC.F6,   KC.F7,   KC.F8,   KC.F9,   KC.F10,   KC.F12,   KC.DEL,
         XXXXXXX, XXXXXXX, XXXXXXX, KC.LEFT, KC.DOWN, KC.RIGHT,XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  XXXXXXX,  XXXXXXX,
         XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  XXXXXXX,  XXXXXXX,
         XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  XXXXXXX,  XXXXXXX
