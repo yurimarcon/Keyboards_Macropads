@@ -40,48 +40,48 @@ keyboard.keymap = [
     # ,-------------------------------------------------------------------------------------------------.
     # |XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|
     # |XXXXXX|XXXXXX|------+------+------+------+------+------+------+------+------+------+------+------|
-    # |XXXXXX|XXXXXX|   '  |   Q  |   W  |   E  |   R  |   T  |   Y  |   U  |   I  |   O  |   P  |  ´   |
+    # |XXXXXX|XXXXXX|  ESC |   Q  |   W  |   E  |   R  |   T  |   Y  |   U  |   I  |   O  |   P  | Bksp |
     # |XXXXXX|XXXXXX|------+------+------+------+------+-------------+------+------+------+------+------|
     # |XXXXXX|XXXXXX| Tab  |   A  |   S  |   D  |   F  |   G  |   H  |   J  |   K  |   L  |   ;  |  '   |
     # |XXXXXX|XXXXXX|------+------+------+------+------+------+------+------+------+------+------+------|
     # |XXXXXX|XXXXXX| Shift|   Z  |   X  |   C  |   V  |   B  |   N  |   M  |   ,  |   .  |   /  | Shift|
     # |XXXXXX|XXXXXX|------+------+------+------+------+------+------+------+------+------+------+------|
-    # |XXXXXX|XXXXXX| Ctrl | GUI  |  Alt |XXXXXX|XXXXXX| Space| Space|  Alt |  Fn  | Alt  | GUI  | Enter|
+    # |XXXXXX|XXXXXX| Ctrl | GUI  |  Alt |  Fn2 |XXXXXX| Space| Space|XXXXXX|  Fn  | Alt  | GUI  | Enter|
     # `-------------------------------------------------------------------------------------------------'
     [
         XXXXXXX, XXXXXXX, XXXXXXX,  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
-        XXXXXXX, XXXXXXX, KC.QUOT,  KC.Q,    KC.W,    KC.E,    KC.R,    KC.T,    KC.Y,    KC.U,    KC.I,    KC.O,    KC.P,    KC.LBRC, 
+        XXXXXXX, XXXXXXX, KC.ESC,  KC.Q,    KC.W,    KC.E,    KC.R,     KC.T,    KC.Y,    KC.U,    KC.I,    KC.O,    KC.P,    KC.BKSP, 
         XXXXXXX, XXXXXXX, KC.TAB,   KC.A,    KC.S,    KC.D,    KC.F,    KC.G,    KC.H,    KC.J,    KC.K,    KC.L,    KC.SCLN, KC.QUOT,  
         XXXXXXX, XXXXXXX, KC.LSFT,  KC.Z,    KC.X,    KC.C,    KC.V,    KC.B,    KC.N,    KC.M,    KC.COMM, KC.DOT,  KC.SLSH, KC.RSFT,   
-        XXXXXXX, XXXXXXX, KC.LCTRL, KC.LGUI, KC.LALT, XXXXXXX, XXXXXXX, KC.SPC,  KC.SPC,  KC.RALT, FN,      FN2,     XXXXXXX, KC.ENTER,  
+        XXXXXXX, XXXXXXX, KC.LCTRL, KC.LGUI, KC.LALT, FN2, XXXXXXX,     KC.SPC,  KC.SPC,  KC.RALT, FN,      XXXXXXX, XXXXXXX, KC.ENTER,  
     ],
     # Alt
     # ,-------------------------------------------------------------------------------------------------.
     # |XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|
     # |XXXXXX|XXXXXX|------+------+------+------+------+------+------+------+------+------+------+------|
-    # |XXXXXX|XXXXXX|  ESC |   1  |   2  |   3  |   4  |   5  |   6  |   7  |   8  |   9  |   0  |  Del |
+    # |XXXXXX|XXXXXX|   '  |   1  |   2  |   3  |   4  |   5  |   6  |   7  |   8  |   9  |   0  |  ´   |
     # |XXXXXX|XXXXXX|------+------+------+------+------+-------------+------+------+------+------+------|
-    # |XXXXXX|XXXXXX|      |      |      |      |      |      | Home | PgDn | PgUp | End  |   =  | Print|
+    # |XXXXXX|XXXXXX|      |      |      |      |      |      | Home | PgDn | PgUp | End  |   -  |   =  |
     # |XXXXXX|XXXXXX|------+------+------+------+------+------+------+------+------+------+------+------|
-    # |XXXXXX|XXXXXX|      | PIPE |      |      |      |      |      |      |      |      |      |      |
+    # |XXXXXX|XXXXXX|      | PIPE |      |      |      |      |      |      |      |      |      | Print|
     # |XXXXXX|XXXXXX|------+------+------+------+------+------+------+------+------+------+------+------|
     # |XXXXXX|XXXXXX|      |      |      |      |      |      |      |      |      |      |      |      |
     # `-------------------------------------------------------------------------------------------------'
 
     [
         XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
-        XXXXXXX, XXXXXXX, KC.ESC,  KC.N1,   KC.N2,   KC.N3,   KC.N4,   KC.N5,   KC.N6,   KC.N7,   KC.N8,   KC.N9,   KC.N0,   KC.BKSP,
+        XXXXXXX, XXXXXXX, KC.QUOT, KC.N1,   KC.N2,   KC.N3,   KC.N4,   KC.N5,   KC.N6,   KC.N7,   KC.N8,   KC.N9,   KC.N0,   KC.LBRC,
         XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC.HOME, KC.PGDN, KC.PGUP, KC.END,  KC.MINS, KC.EQUAL,  
-        XXXXXXX, XXXXXXX, XXXXXXX, KC.PIPE, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC.PSCR,  
+        XXXXXXX, XXXXXXX, XXXXXXX, KC.GRV, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC.PSCR,  
         XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  
     ],
     # Arrows
     # ,-------------------------------------------------------------------------------------------------.
     # |XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|
     # |XXXXXX|XXXXXX|------+------+------+------+------+------+------+------+------+------+------+------|
-    # |XXXXXX|XXXXXX|  F1  |  F2  |  UP  |  F4  |  F5  |  F6  |  F7  |  F8  |  F9  | F10  | F11  | F12  |
+    # |XXXXXX|XXXXXX|  F1  |  F2  |  UP  |  F4  |  F5  |  F6  |  F7  |  F8  |  F9  | F10  | F12  | Del  |
     # |XXXXXX|XXXXXX|------+------+------+------+------+-------------+------+------+------+------+------|
-    # |XXXXXX|XXXXXX|      | LEFT | DOWN | RIGHT|      |      |      |      |      |      |      |      |
+    # |XXXXXX|XXXXXX|      | LEFT | DOWN | RIGHT|      |      | LEFT | DOWN |  UP  | RIGHT|      |      |
     # |XXXXXX|XXXXXX|------+------+------+------+------+------+------+------+------+------+------+------|
     # |XXXXXX|XXXXXX|      |      |      |      |      |      |      |      |      |      |      |      |
     # |XXXXXX|XXXXXX|------+------+------+------+------+------+------+------+------+------+------+------|
@@ -91,7 +91,7 @@ keyboard.keymap = [
     [
         XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  XXXXXXX,  XXXXXXX,
         XXXXXXX, XXXXXXX, KC.F1,   KC.F2,   KC.UP,   KC.F4,   KC.F5,   KC.F6,   KC.F7,   KC.F8,   KC.F9,   KC.F10,   KC.F12,   KC.DEL,
-        XXXXXXX, XXXXXXX, XXXXXXX, KC.LEFT, KC.DOWN, KC.RIGHT,XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  XXXXXXX,  XXXXXXX,
+        XXXXXXX, XXXXXXX, XXXXXXX, KC.LEFT, KC.DOWN, KC.RIGHT,XXXXXXX, XXXXXXX, KC.LEFT, KC.DOWN, KC.UP,   KC.RIGHT, XXXXXXX,  XXXXXXX,
         XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  XXXXXXX,  XXXXXXX,
         XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  XXXXXXX,  XXXXXXX
     ]
