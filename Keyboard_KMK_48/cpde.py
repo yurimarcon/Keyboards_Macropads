@@ -46,7 +46,7 @@ keyboard.keymap = [
     # |XXXXXX|XXXXXX|------+------+------+------+------+------+------+------+------+------+------+------|
     # |XXXXXX|XXXXXX| Shift|   Z  |   X  |   C  |   V  |   B  |   N  |   M  |   ,  |   .  |   /  | Shift|
     # |XXXXXX|XXXXXX|------+------+------+------+------+------+------+------+------+------+------+------|
-    # |XXXXXX|XXXXXX| Ctrl | GUI  |  Alt |  Fn2 |XXXXXX| Space| Space|XXXXXX|  Fn  | Alt  | GUI  | Enter|
+    # |XXXXXX|XXXXXX| Ctrl | GUI  |  Alt |  Fn2 |XXXXXX| Space| Space|  Alt |  Fn  |XXXXXX|XXXXXX| Enter|
     # `-------------------------------------------------------------------------------------------------'
     [
         XXXXXXX, XXXXXXX, XXXXXXX,  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
@@ -63,17 +63,17 @@ keyboard.keymap = [
     # |XXXXXX|XXXXXX|------+------+------+------+------+-------------+------+------+------+------+------|
     # |XXXXXX|XXXXXX|      |      |      |      |      |      | Home | PgDn | PgUp | End  |   -  |   =  |
     # |XXXXXX|XXXXXX|------+------+------+------+------+------+------+------+------+------+------+------|
-    # |XXXXXX|XXXXXX|      | PIPE |      |      |      |      |      |      |      |      |      | Print|
+    # |XXXXXX|XXXXXX|      |  \|  | PIPE |      |      |      |      |      |      |      |      | Print|
     # |XXXXXX|XXXXXX|------+------+------+------+------+------+------+------+------+------+------+------|
-    # |XXXXXX|XXXXXX|      |      |      |      |      |      |      |      |      |      |      |      |
+    # |XXXXXX|XXXXXX|      |      |      |      |      |      |      |      |      |   [  |  ]   |      |
     # `-------------------------------------------------------------------------------------------------'
 
     [
         XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
         XXXXXXX, XXXXXXX, KC.QUOT, KC.N1,   KC.N2,   KC.N3,   KC.N4,   KC.N5,   KC.N6,   KC.N7,   KC.N8,   KC.N9,   KC.N0,   KC.LBRC,
         XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC.HOME, KC.PGDN, KC.PGUP, KC.END,  KC.MINS, KC.EQUAL,  
-        XXXXXXX, XXXXXXX, XXXXXXX, KC.GRV, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC.PSCR,  
-        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  
+        XXXXXXX, XXXXXXX, XXXXXXX, KC.GRV,  KC.PIPE, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  XXXXXXX, KC.PSCR,  
+        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC.RBRC, KC.BSLS, XXXXXXX,  
     ],
     # Arrows
     # ,-------------------------------------------------------------------------------------------------.
