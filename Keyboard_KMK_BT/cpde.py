@@ -6,7 +6,10 @@ from kmk.kmk_keyboard import KMKKeyboard
 from kmk.keys import KC
 from kmk.scanners import DiodeOrientation
 from kmk.modules.layers import Layers
+from kmk.hid import HIDModes  # Importe o HIDModes para habilitar o modo BLE
+from adafruit_ble import BLERadio
 
+ble = BLERadio()
 keyboard = KMKKeyboard()
 keyboard.modules.append(Layers())
 
@@ -98,5 +101,6 @@ keyboard.keymap = [
 ]
 
 if __name__ == '__main__':
-    keyboard.go()
+    keyboard.go(hid_type=HIDModes.BLE, ble_name='KMKeyboard')
+
 
